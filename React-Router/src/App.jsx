@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import Button from "./components/elements/button/Button";
+
 function App() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-sky-400 font-Montserrat">
@@ -24,9 +26,11 @@ function App() {
           >
             Forgot password?
           </a>
-          <button className="bg-[#0171d3] w-full h-11 rounded-md text-white">
-            Login
-          </button>
+          <Button
+            buttonColor="bg-[#0171d3]"
+            buttonText="Login"
+            textColor="text-[#FFF]"
+          />
 
           <span className="flex items-center justify-center gap-2 text-xs">
             Don't have an account?
@@ -41,13 +45,17 @@ function App() {
             <span className="w-full border border-slate-200"></span>
           </div>
 
-          <button className="bg-[#0171d3] w-full h-11 rounded-md text-white">
-            Login with Facebook
-          </button>
+          <Button
+            buttonColor="bg-[#0171d3]"
+            buttonText="Login with Facebook"
+            textColor="text-[#FFF]"
+          />
 
-          <button className="w-full bg-transparent border-2 rounded-md text-slate-500 h-11 border-slate-300">
-            Login with Google
-          </button>
+          <Button
+            buttonColor="bg-[#f64344]"
+            buttonText="Login with Google"
+            textColor="text-[#FFF]"
+          />
         </form>
       </div>
     </div>
