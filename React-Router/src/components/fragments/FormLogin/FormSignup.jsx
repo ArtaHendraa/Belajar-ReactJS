@@ -27,7 +27,7 @@ const FormRegister = () => {
         authText="Already have an account?"
         authLink="Login"
         textColor="text-sky-600"
-        href="https://artahendraa.github.io/"
+        href="/login"
       />
 
       <div className="flex items-center justify-center">

@@ -26,7 +26,7 @@ const FormLogin = () => {
         authText="Don't have an account?"
         authLink="Signup"
         textColor="text-sky-600"
-        href="https://artahendraa.github.io/"
+        href="/signup"
       />
 
       <div className="flex items-center justify-center">
