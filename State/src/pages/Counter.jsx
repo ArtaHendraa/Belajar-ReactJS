@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Counter extends React.Component {
   constructor(props) {
@@ -30,6 +31,15 @@ class Counter extends React.Component {
             {" "}
             -{" "}
           </button>
+        </div>
+
+        <div className="flex justify-center mt-10">
+          <Link
+            className="px-10 py-3 font-semibold tracking-wider duration-200 rounded-md bg-sky-600 hover:bg-sky-500 text-neutral-200"
+            to="/"
+          >
+            Home
+          </Link>
         </div>
       </div>
     );
